@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Assets/materialize/css/materialize.min.css">
-    <link rel="stylesheet" href="/Assets/css/style.css">
-    <title>tamrin1</title>
+    <link rel="stylesheet" href="Assets/css/util.css">
+    <link rel="stylesheet" href="Assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>tamrin-final</title>
 </head>
+
 <body>
-    <H1>hello</H1>
+    <!--start nav-->
+    <nav class="white z-depth-0 top-nvbr">
+        <div class="nav-wrapper">
+            <a href="#!" class="blue-text hide-on-med-and-up">App</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                    class="material-icons blue-text ">menu</i></a>
+            <ul class="  hide-on-med-and-down">
+                <li><a href="/" class="blue-text">Home</a></li>
+                <li><a href="users.html" class="blue-text">Management</a></li>
+                <li><a href="https://codeyad.com/" class="blue-text">Codyad</a></li>
+                <li><a href="https://materializecss.com/" class="blue-text">Materiyalize</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="Assets/images/baclgrand.jfif" class="w-full">
+                </div>
+                <a href="#user"><img class="circle" src="Assets/images/photo1.jfif"></a>
+                <a href="#name"><span class="white-text name">Fatemeh</span></a>
+                <a href="#email"><span class="white-text email">fatemehdel@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="https://materializecss.com/"><i class="material-icons blue-text">link</i>Learn programing
+                Codyad</a></li>
+
+        <li><a href="https://www.w3schools.com/"><i class="material-icons blue-text">link</i>L programing w3
+                schooles</a></li>
+
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a>
+        <li><a href="users.html"><i class="material-icons  blue-text">email</i> Email</a></li>
+
+        </li>
+        </li>
+    </ul>
+    <!--end nav-->
+    <!--stART SECTION-->
+    <section class="flex-c-m flex-col sizefull p-l-20 p-r-20 p-t-100  ">
+        <img src="Assets/images/logo.jfif" alt="logo " class="w-full max-w-200">
+        <a class="waves-effect waves-dark btn   blue   black-text  w-full max-w-250 m-t-10 mb-10 br-r"
+            href="https://www.codewars.com/">Codwars</a>
+        <a class="waves-effect waves-dark btn w-full max-w-250 m-t-10 mb-10 br-r  blue black-text"
+            href="https://sabzlearn.ir/ ">Sabz Learn</a>
 
 
-    <script   src="/Assets/materialize/js/materialize.min.js"></script>
-    <script   src="/Assets/js/main.js"></script>
+
+    </section>
+
+
+    <!--end section-->
+
+
+
+    <script src="Assets/materialize/js/materialize.min.js"></script>
+    <script src="Assets/js/main.js"></script>
+
 </body>
-</html> 
+
+</html>

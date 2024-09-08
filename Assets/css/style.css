@@ -1,0 +1,17 @@
+@media (min-width: 600px) {
+  .top-nvbr {
+    box-shadow: 0 0 50px gray !important;
+  }
+}
+.br-r{border-radius: 5rem;}
+
+
+
+
+
+.user-list-item.active .user-list-arrow-icon {
+    transform: rotate(180deg);
+}
+
+.user-list-item.active, .user-list-arrow-icon .active .collapsible-header  {
+background-color: rgba(170, 170, 149, 0.651);}

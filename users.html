@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/util.css">
+    <link rel="stylesheet" href="Assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>tamrin-final</title>
+</head>
+
+<body>
+    <!--start nav-->
+    <nav class="white z-depth-0 top-nvbr">
+        <div class="nav-wrapper">
+            <a href="#!" class="blue-text hide-on-med-and-up">user-managment</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons blue-text">menu</i>
+            </a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="/" class="blue-text">Home</a></li>
+                <li><a href="users.html" class="blue-text">Management</a></li>
+                <li><a href="https://codeyad.com/" class="blue-text">Codeyad</a></li>
+                <li><a href="https://materializecss.com/" class="blue-text">Materialize</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="Assets/images/baclgrand.jfif" class="w-full">
+                </div>
+                <a><img class="circle" src="Assets/images/photo1.jfif"></a>
+                <a><span class="white-text name">Fatemeh</span></a>
+                <a><span class="white-text email">fatemehdel@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="https://materializecss.com/"><i class="material-icons blue-text">link</i>Learn programming
+                Codeyad</a></li>
+        <li><a href="https://www.w3schools.com/"><i class="material-icons blue-text">link</i>Learn programming
+                W3Schools</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a href="users.html"><i class="material-icons blue-text">email</i>Email</a></li>
+    </ul>
+    <!--end nav-->
+
+    <!--start content SECTION-->
+    <section id="top-action" class="row m-b-0">
+        <div class="p-l-10 p-r-10 p-t-10 col s12 m4 l3">
+            <button class="waves-effect waves-light btn darken-2 w-full br-r p-r-30 p-l-30 top-7 flex-c-m blue">
+                <i class="material-icons m-r-5 ">add</i>
+                Add User
+            </button>
+        </div>
+        <div class="row col s12 m8 L9">
+            <div class="input-field col s12">
+                <input id="search" type="text" class="validate">
+                <label for="search">
+                    <i class="material-icons pos-relative top-7 m-b-5">search</i>
+                    Search
+                </label>
+            </div>
+        </div>
+    </section>
+    <!--end content section-->
+
+    <!--start user list SECTION-->
+    <section class="user-list-section">
+        <ul class="collapsible">
+            <li class="user-list-item">
+                <div class="collapsible-header">
+                    <i class="material-icons blue-text user-list-arrow-icon">arrow_drop_down_circle</i>
+                    Fatemeh
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5 m-t-10">
+                        <span class="f-bold material-icons">person</span>
+                        <span>Fatimba</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold material-icons">email</span>
+                        <span>fatemehdelgarm@gmail.com</span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="user-list-item">
+                <div class="collapsible-header">
+                    <i class="material-icons blue-text user-list-arrow-icon trans-0-2">arrow_drop_down_circle</i>
+                    Maedeh
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5 m-t-10">
+                        <span class="f-bold material-icons">person</span>
+                        <span>Maedeh</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold material-icons">email</span>
+                        <span>mahi138019@gmail.com</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--end user list section-->
+
+    <script src="Assets/materialize/js/materialize.min.js"></script>
+    <script src="Assets/js/main.js"></script>
+    <script src="Assets/js/colaps.js"></script>
+
+</body>
+
+</html>

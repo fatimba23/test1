@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="Assets/css/util.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>App</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="white z-depth-0 top-nvbr">
+        <div class="nav-wrapper">
+            <a href="#!" class="black-text hide-on-med-and-up">user-management</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="/" class="black-text">Home</a></li>
+                <li><a href="users2.html" class="black-text">user-management</a></li>
+                <li><a href="https://codeyad.com/" class="black-text">codeyad</a></li>
+                <li><a href="https://materializecss.com/buttons.html" class="black-text">materialize</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidenav -->
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="Assets/images/background.jfif" class="w100" alt="Background Image">
+                </div>
+                <a><img class="circle" src="Assets/images/photo1.jfif" alt="User Photo"></a>
+                <a><span class="white-text name">Fatemeh</span></a>
+                <a><span class="white-text email">fatemeh.del@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">person_add</i>Add User</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="/">User</a></li>
+        <li><a class="waves-effect" href="users2.html">Email</a></li>
+    </ul>
+
+    <!-- Start Section content -->
+    <section id="top-action" class="row">
+        <div class="p-l-10 p-r-10 p-t-10 col s12 m4 l3">
+            <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c-m">
+                <i class="material-icons m-r-5"> </i>
+                Add User
+            </button>
+        </div>
+
+        <div class="row col s12 m8 l9">
+            <div class="input-field col s12">
+                <input id="search" type="text" class="validate">
+                <label for="search">
+                    <i class="material-icons pos-relative top-7">search</i>
+                    Search
+                </label>
+            </div>
+        </div>
+    </section>
+    <!-- End Section content -->
+    <section>
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down_circle</i>fatemeh dm</div>
+
+
+
+
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">username:</span>
+                        <span>fatemeh delgarm</span>
+                    </div>
+                        <div class="p-all-5">
+                            <span class="f-bold">email:</span>
+                            <span>fatemeh delgarm@gmail.com</span>
+                        </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+
+
+
+    <script src="Assets/materialize/js/materialize.min.js"></script>
+    <script src="Assets/js/main.js"></script>
+    <script src="Assets/js/colaps.js"></script>
+</body>
+
+</html>
