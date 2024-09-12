@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="Assets/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="Assets/css/style.css">
-    <title>tamrin-final</title>
+    <title>User Management</title>
 </head>
 
 <body>
-    <!--start nav-->
+    <!-- Start Navigation -->
     <nav class="white z-depth-0 top-nvbr">
         <div class="nav-wrapper">
-            <a href="#!" class="blue-text hide-on-med-and-up">user-managment</a>
+            <a href="#!" class="blue-text hide-on-med-and-up">User Management</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                 <i class="material-icons blue-text">menu</i>
             </a>
@@ -32,7 +32,7 @@
         <li>
             <div class="user-view">
                 <div class="background">
-                    <img src="Assets/images/baclgrand.jfif" class="w-full">
+                    <img src="Assets/images/background.jfif" class="w-full">
                 </div>
                 <a><img class="circle" src="Assets/images/photo1.jfif"></a>
                 <a><span class="white-text name">Fatemeh</span></a>
@@ -49,67 +49,197 @@
         <li><a class="subheader">Subheader</a></li>
         <li><a href="users.html"><i class="material-icons blue-text">email</i>Email</a></li>
     </ul>
-    <!--end nav-->
+    <!-- End Navigation -->
 
-    <!--start content SECTION-->
-    <section id="top-action" class="row m-b-0">
-        <div class="p-l-10 p-r-10 p-t-10 col s12 m4 l3">
-            <button class="waves-effect waves-light btn darken-2 w-full br-r p-r-30 p-l-30 top-7 flex-c-m blue">
-                <i class="material-icons m-r-5 ">add</i>
-                Add User
+    <!-- Start Content Section -->
+    <section id="top-action-selection   " class="row top2  m-b-0 container ">
+        <!--add button-->
+        <div class="p-l-10 p-r-10 p-t-10 col s12 m4 l3 ">
+            <button class="waves-effect waves-dark btn blue darken-2 p-l-30 p-r-30 w-full br-r flex-c2 ">
+                <i class="material-icons m-r-5">add</i>
+                add user
+
             </button>
+
         </div>
-        <div class="row col s12 m8 L9">
-            <div class="input-field col s12">
+        <!--end button-->
+
+
+        <!--start search section-->
+
+        <div class="row col s12 m8 l9 m-b-5">
+            <div class="input-field col s12 ">
                 <input id="search" type="text" class="validate">
                 <label for="search">
-                    <i class="material-icons pos-relative top-7 m-b-5">search</i>
-                    Search
+                    <i class="material-icons pos-relative top-7">search</i>
+                    search
+
                 </label>
+
             </div>
         </div>
-    </section>
-    <!--end content section-->
 
-    <!--start user list SECTION-->
+        </div>
+        <!--end search section-->
+
+
+    </section>
+
+    <!--end content section-->
     <section class="user-list-section">
-        <ul class="collapsible">
-            <li class="user-list-item">
-                <div class="collapsible-header">
-                    <i class="material-icons blue-text user-list-arrow-icon">arrow_drop_down_circle</i>
-                    Fatemeh
-                </div>
+        <ul class="collapsible hide-on-med-and-up">
+            <li class="user-item">
+                <div class="collapsible-header"><i
+                        class="material-icons blue-text darken-2 user-icons-arrow trans-0-2">arrow_drop_down_circle
+                    </i>fatemeh del</div>
+
                 <div class="collapsible-body">
-                    <div class="p-all-5 m-t-10">
-                        <span class="f-bold material-icons">person</span>
-                        <span>Fatimba</span>
+                    <div class="p-all-5"><span class="f-bold">Username:</span>
+                        <span>fatimba</span>
                     </div>
-                    <div class="p-all-5">
-                        <span class="f-bold material-icons">email</span>
-                        <span>fatemehdelgarm@gmail.com</span>
+                    <div class="p-all-5"><span class="f-bold">Email:</span>
+                        <span>fatimba1380@gmail.com</span>
+                    </div>
+                    <div class="p-all-5"><span class="f-bold">Address:</span>
+                        <span>lorestan-azna</span>
+                    </div>
+                    <div class="p-all-5"><span class="f-bold">Action:</span>
+                        <i class="material-icons red-text m-l-5 m-r-5 ">delete_forever</i>
+                        <i class="material-icons orange-text m-l-5 m-r-5">edite</i>
+
+
                     </div>
                 </div>
             </li>
+            <li class="user-item ">
+                <div class="collapsible-header"><i
+                        class="material-icons blue-text darken-2 user-icons-arrow trans-0-2">arrow_drop_down_circle
+                    </i>zahra-var</div>
 
-            <li class="user-list-item">
-                <div class="collapsible-header">
-                    <i class="material-icons blue-text user-list-arrow-icon trans-0-2">arrow_drop_down_circle</i>
-                    Maedeh
-                </div>
                 <div class="collapsible-body">
-                    <div class="p-all-5 m-t-10">
-                        <span class="f-bold material-icons">person</span>
-                        <span>Maedeh</span>
+                    <div class="p-all-5"><span class="f-bold">username:</span>
+                        <span>zariii</span>
                     </div>
-                    <div class="p-all-5">
-                        <span class="f-bold material-icons">email</span>
-                        <span>mahi138019@gmail.com</span>
+                    <div class="p-all-5"><span class="f-bold">Email:</span>
+                        <span>zari5232@gmail.com</span>
                     </div>
+                    <div class="p-all-5"><span class="f-bold">Address:</span>
+                        <span>tehran-azadi</span>
+                    </div>
+                    <div class="p-all-5"><span class="f-bold">Action:</span>
+                        <i class="material-icons red-text m-l-5 m-r-5 ">delete_forever</i>
+                        <i class="material-icons orange-text m-l-5 m-r-5">edite</i>
+
+
+                    </div>
+
+
+            </li>
+            <li class="user-item ">
+                <div class="collapsible-header"><i
+                        class="material-icons blue-text darken-2 user-icons-arrow trans-0-2">arrow_drop_down_circle
+                    </i>saba lak</div>
+
+                <div class="collapsible-body">
+                    <div class="p-all-5"><span class="f-bold">username:</span>
+                        <span>saba</span>
+                    </div>
+                    <div class="p-all-5"><span class="f-bold">Email:</span>
+                        <span>sabadel1380@gmail.com</span>
+                    </div>
+                    <div class="p-all-5"><span class="f-bold">Address:</span>
+                        <span>tabriz-valiasr</span>
+                    </div>
+                    <div class="p-all-5"><span class="f-bold">Action:</span>
+                        <i class="material-icons red-text m-l-5 m-r-5 ">delete_forever</i>
+                        <i class="material-icons orange-text m-l-5 m-r-5">edite</i>
+
+
+                    </div>
+
+
                 </div>
             </li>
         </ul>
+        <div class="hide-on-med-and-down show-on-medium-and-up container">
+            <table class=" centered striped highlight">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>fatemehdel</td>
+                        <td>fatimba</td>
+                        <td>fatimba1380@gmail.com</td>
+                        <td>lorestan-azna</td>
+                        <td><i class="material-icons red-text m-l-5 m-r-5 hov-pointer">delete_forever</i>
+                            <i class="material-icons orange-text m-l-5 m-r-5 hov-pointer">edite</i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>saba</td>
+                        <td>saba52</td>
+                        <td>sabadel1380@gmail.com</td>
+                        <td>tabriz-vailasr</td>
+                        <td><i class="material-icons red-text m-l-5 m-r-5 ">delete_forever</i>
+                            <i class="material-icons orange-text m-l-5 m-r-5">edite</i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>zahra-var</td>
+                        <td>zariii</td>
+                        <td>zari5232@gmail.com</td>
+                        <td>tehran-azadi</td>
+                        <td><i class="material-icons red-text m-l-5 m-r-5 ">delete_forever</i>
+                            <i class="material-icons orange-text m-l-5 m-r-5">edite</i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>fariba</td>
+                        <td>ferii</td>
+                        <td>afsa@gmail.com</td>
+                        <td>hamedan-hamedan</td>
+                        <td><i class="material-icons red-text m-l-5 m-r-5 ">delete_forever</i>
+                            <i class="material-icons orange-text m-l-5 m-r-5">edite</i>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+
+        </div>
+        <div class="pagination-container container p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 z-depth-4 rounded_top_30">
+            <div class="pogination_item_countainer flex-l p-l-10 flex-l-m">
+                showing
+                <span class="m-l-5 m-r-5 max-w-50 ">
+                    <input type="number" class="blue-text darken-2 n0-border center-align m-b-0 " value="10">
+                </span>
+                of
+                <span class="m-l-5 m-r-5 blue-text darken-2">100</span>
+            </div>
+            <div class="pagination-buttom">
+                <i class="material-icons blue darken-2 m-l-5 m-r-5 p-r-5 p-t-1 p-b-3 waves-effect waves-dark white-text br-r">keyboard_arrow_left</i>
+                <i class="material-icons blue darken-2 m-l-5 m-r-5 p-r-5 p-t-1 p-b-3 waves-effect waves-dark white-text br-r">keyboard_arrow_right</i>
+            </div>
+
+
+        </div>
     </section>
-    <!--end user list section-->
 
     <script src="Assets/materialize/js/materialize.min.js"></script>
     <script src="Assets/js/main.js"></script>
