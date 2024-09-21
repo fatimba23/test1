@@ -1,0 +1,49 @@
+@media (min-width: 600px) {
+  .top-nvbr {
+    box-shadow: 0 0 50px rebeccapurple !important;
+  }
+  #top-action-selection {
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+.user-item.active .user-icons-arrow {
+  transform: rotate(180deg);
+}
+.user-item.user-item.active,
+.user-item.active .collapsible-header {
+  background-color: rgba(144, 144, 179, 0.548);
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: rgba(121, 34, 34, 0.5);
+}
+
+.container {
+  width: 100% !important;
+}
+.add_user_model_back {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(59, 43, 43, 0.466);
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+.add_user_model {
+  position: fixed;
+  height: 70vh;
+  background-color: white;
+  bottom: 0;
+  z-index: 1000;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  bottom: -70vh;
+}
+.add_user_model.show {
+  box-shadow: 0 0 10px rgb(31, 92, 161);
+  bottom: 0;
+}
